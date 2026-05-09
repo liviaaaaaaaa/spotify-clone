@@ -29,11 +29,10 @@
               {
                 "glob": "**/*",
                 "input": "node_modules/primeicons/fonts",
-                "output": "media"
+                "output": "assets/primeicons"
               }
             ],
             "styles": [
-              "primeicons/primeicons.css",
               "primeflex/primeflex.css",
               "src/styles.scss"
             ]
