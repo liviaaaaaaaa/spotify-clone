@@ -24,12 +24,19 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "node_modules/primeicons/fonts",
+                "output": "media"
               }
             ],
-            "styles": ["primeicons/primeicons.css", "primeflex/primeflex.css", "src/styles.scss"]
+            "styles": [
+              "primeicons/primeicons.css",
+              "primeflex/primeflex.css",
+              "src/styles.scss"
+            ]
           },
           "configurations": {
             "production": {
