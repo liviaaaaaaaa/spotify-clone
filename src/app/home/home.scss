@@ -1,0 +1,196 @@
+:host ::ng-deep .p-card .p-card-body {
+  padding: 0 !important;
+}
+
+.search-bar {
+  background-color: #1f1f1f;
+  border-radius: 999px;
+  height: 48px;
+  width: 470px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.search-input {
+  flex: 1;
+  font-size: 1rem;
+  color: rgb(179, 179, 179);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 12px;
+}
+
+.separator {
+  font-size: 1.5rem;
+  color: rgb(179, 179, 179);
+}
+
+.text-item p {
+  margin: 0;
+  color: rgb(179, 179, 179);
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+
+.text-item p:hover {
+  color: #fff;
+}
+
+.btn-login {
+  font-size: 1rem;
+  border-radius: 999px;
+  height: 48px;
+  padding: 0 30px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cards{
+    font-weight: 700 !important;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    font-size: 1rem;
+}
+.card-biblioteca{
+    background: #141414;
+    width: 420px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.btn-new{
+    background-color: #1f1f1f;
+    font-size: 0.9rem;
+    border-radius: 999px;
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-playlist{
+    background: #1f1f1f;
+    margin: 0;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.btn-playlist{
+    background-color: white;
+    font-size: 0.8rem;
+    border-radius: 700px;
+    height: 32px;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.header-biblioteca{
+    flex-shrink: 0;
+}
+
+.body-biblioteca {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  max-height: 210px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+}
+
+/* Chrome / Edge / Safari */
+.body-biblioteca::-webkit-scrollbar {
+  width: 4px;
+}
+
+.body-biblioteca::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* REMOVE completamente “UI nativa feia” */
+.body-biblioteca::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+/* thumb estilo Spotify */
+.body-biblioteca::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 0px;
+}
+
+.body-biblioteca::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.text-bottom{
+    color: rgb(179, 179, 179);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.btn-language{
+    border: 1px solid #fff;
+    background-color: #141414;
+    font-size: 0.8rem;
+    border-radius: 700px;
+    height: 32px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.card-music{
+    background: #1f1f1f;
+    width: 910px;
+    height: 490px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #555 transparent;
+}
+.card-music::-webkit-scrollbar { width: 6px; }
+.card-music::-webkit-scrollbar-thumb { background: #555; border-radius: 3px; }
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.music-card:hover,
+.artist-card:hover {
+  background: #282828 !important;
+}
+
+.carousel-btn-prev,
+.carousel-btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.7);
+  border: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+.carousel-btn-prev { left: -16px; }
+.carousel-btn-next { right: -16px; }
+
+.music-card, .artist-card {
+  flex: 0 0 150px;
+  min-width: 0;
+}
