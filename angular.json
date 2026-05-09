@@ -29,7 +29,7 @@
               {
                 "glob": "**/*",
                 "input": "node_modules/primeicons/fonts",
-                "output": "assets/primeicons"
+                "output": "media"
               }
             ],
             "styles": [
