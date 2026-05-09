@@ -29,11 +29,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "primeicons/primeicons.css",
-              "primeflex/primeflex.css",
-              "src/styles.scss"
-            ]
+            "styles": ["primeicons/primeicons.css", "primeflex/primeflex.css", "src/styles.scss"]
           },
           "configurations": {
             "production": {
@@ -73,6 +69,9 @@
         },
         "test": {
           "builder": "@angular/build:unit-test"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
